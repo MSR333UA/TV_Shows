@@ -43,6 +43,10 @@ export const MoviesListStyled = styled.ul`
   margin-top: 100px;
   gap: ${p => p.theme.space[5]}px;
   row-gap: ${p => p.theme.space[6]}px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const ListItem = styled.li`
@@ -57,6 +61,9 @@ export const ListItem = styled.li`
   }
   width: 268px;
   background-color: #21212152;
+  @media screen and (max-width: 768px) {
+    height: 350px;
+  }
 `;
 export const WrapperText = styled.div`
   padding: 10px;

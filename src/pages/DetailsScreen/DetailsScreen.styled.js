@@ -48,7 +48,6 @@ export const Wrap = styled.div`
     flex-direction: column;
   }
 
-
   @media screen and (min-width: 1440px) {
     width: 80%;
   }
@@ -60,10 +59,12 @@ export const ImgWrap = styled.div`
 
   padding: ${p => p.theme.space[2]}px;
   img {
-    height: 50vw;
+    width: 35vw;
+    height: 55vw;
     border-radius: 8px;
     @media screen and (min-width: 1440px) {
       height: 30vw;
+      width: 25vw;
     }
   }
   @media screen and (max-width: 768px) {
