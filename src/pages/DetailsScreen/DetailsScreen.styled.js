@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export const MovieDetailsStyled = styled.div``;
 
@@ -91,18 +91,21 @@ export const ListItem = styled.li`
 
   font-size: 12px;
 `;
-
+export const UserText = styled.p``;
+export const GenresText = styled.p``;
+export const StatusText = styled.p``;
+export const ScheduleText = styled.p``;
+export const LinkText = styled.p``;
 export const SummaryText = styled.p`
   margin-top: 20px;
 `;
 
-export const NavLinkStyled = styled(NavLink)`
-  display: block;
-
+export const LinkUrl = styled.a`
   font-size: 12px;
   line-height: 24px;
   font-family: 'Roboto-Regular';
-  margin-top: 10px;
+
+  padding: 5px 10px;
   text-decoration: none;
   text-align: center;
   color: ${p => p.theme.colors.text};

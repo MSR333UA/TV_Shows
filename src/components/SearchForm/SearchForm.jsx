@@ -44,7 +44,7 @@ export const SearchBar = ({ onSubmit }) => {
           type="text"
           autoComplete="off"
           autoFocus
-          placeholder="Search movies"
+          placeholder="Search TV shows"
           onChange={onChange}
         />
       </SearchForm>
