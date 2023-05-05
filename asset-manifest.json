@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/TV_Shows/static/css/main.b95bf6cb.css",
-    "main.js": "/TV_Shows/static/js/main.ea7507f5.js",
+    "main.js": "/TV_Shows/static/js/main.5017ca5d.js",
     "static/js/867.65e813c9.chunk.js": "/TV_Shows/static/js/867.65e813c9.chunk.js",
-    "static/js/99.ba9ee3d6.chunk.js": "/TV_Shows/static/js/99.ba9ee3d6.chunk.js",
+    "static/js/99.01805025.chunk.js": "/TV_Shows/static/js/99.01805025.chunk.js",
     "static/js/664.4ccfc6f7.chunk.js": "/TV_Shows/static/js/664.4ccfc6f7.chunk.js",
     "static/media/Roboto-Medium.ttf": "/TV_Shows/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
     "static/media/Roboto-Regular.ttf": "/TV_Shows/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
@@ -11,13 +11,13 @@
     "static/media/else.jpg": "/TV_Shows/static/media/else.4421c7d0378f67f854d0.jpg",
     "index.html": "/TV_Shows/index.html",
     "main.b95bf6cb.css.map": "/TV_Shows/static/css/main.b95bf6cb.css.map",
-    "main.ea7507f5.js.map": "/TV_Shows/static/js/main.ea7507f5.js.map",
+    "main.5017ca5d.js.map": "/TV_Shows/static/js/main.5017ca5d.js.map",
     "867.65e813c9.chunk.js.map": "/TV_Shows/static/js/867.65e813c9.chunk.js.map",
-    "99.ba9ee3d6.chunk.js.map": "/TV_Shows/static/js/99.ba9ee3d6.chunk.js.map",
+    "99.01805025.chunk.js.map": "/TV_Shows/static/js/99.01805025.chunk.js.map",
     "664.4ccfc6f7.chunk.js.map": "/TV_Shows/static/js/664.4ccfc6f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b95bf6cb.css",
-    "static/js/main.ea7507f5.js"
+    "static/js/main.5017ca5d.js"
   ]
 }
