@@ -47,6 +47,11 @@ export const Wrap = styled.div`
     margin-top: 50px;
     flex-direction: column;
   }
+
+
+  @media screen and (min-width: 1440px) {
+    width: 80%;
+  }
 `;
 export const ImgWrap = styled.div`
   display: flex;
@@ -57,6 +62,9 @@ export const ImgWrap = styled.div`
   img {
     height: 50vw;
     border-radius: 8px;
+    @media screen and (min-width: 1440px) {
+      height: 30vw;
+    }
   }
   @media screen and (max-width: 768px) {
     margin: auto;
@@ -68,6 +76,9 @@ export const TextWrap = styled.div`
 
   @media screen and (max-width: 768px) {
     font-size: 14px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 50px;
   }
 `;
 
@@ -106,6 +117,7 @@ export const ScheduleText = styled.p`
 export const LinkText = styled.p``;
 export const SummaryText = styled.p`
   margin-top: 20px;
+  margin-bottom: 5px;
 `;
 
 export const LinkUrl = styled.a`
