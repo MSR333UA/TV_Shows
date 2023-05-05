@@ -38,7 +38,6 @@ export const MoviesListStyled = styled.ul`
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row; */
 
   justify-content: center;
   margin-top: 100px;

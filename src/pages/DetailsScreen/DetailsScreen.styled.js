@@ -42,6 +42,11 @@ export const LinkStyled = styled(Link)`
 export const Wrap = styled.div`
   display: flex;
   gap: 30px;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 50px;
+    flex-direction: column;
+  }
 `;
 export const ImgWrap = styled.div`
   display: flex;
@@ -50,37 +55,33 @@ export const ImgWrap = styled.div`
 
   padding: ${p => p.theme.space[2]}px;
   img {
-    height: 30vw;
+    height: 50vw;
+    border-radius: 8px;
   }
   @media screen and (max-width: 768px) {
     margin: auto;
   }
 `;
 
-export const TextWrap = styled.div``;
+export const TextWrap = styled.div`
+  font-family: 'Roboto-Regular';
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+`;
 
 export const Title = styled.h1`
   display: block;
 
   font-size: 24px;
-
-  font-style: normal;
-  font-weight: 700;
-
+  font-family: 'Roboto-Bold';
+  margin-bottom: 10px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-`;
 
-export const TitleSecond = styled.p`
-  display: block;
-
-  margin: ${p => p.theme.space[2]}px;
-
-  font-size: 18px;
-
-  font-style: italic;
-  font-weight: 700;
-
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 export const ListItem = styled.li`
@@ -88,35 +89,47 @@ export const ListItem = styled.li`
   width: 200px;
 
   overflow: hidden;
-
   font-size: 12px;
 `;
-export const UserText = styled.p``;
-export const GenresText = styled.p``;
-export const StatusText = styled.p``;
-export const ScheduleText = styled.p``;
+export const UserText = styled.p`
+  margin-bottom: 5px;
+`;
+export const GenresText = styled.p`
+  margin-bottom: 5px;
+`;
+export const StatusText = styled.p`
+  margin-bottom: 5px;
+`;
+export const ScheduleText = styled.p`
+  margin-bottom: 5px;
+`;
 export const LinkText = styled.p``;
 export const SummaryText = styled.p`
   margin-top: 20px;
 `;
 
 export const LinkUrl = styled.a`
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
-  font-family: 'Roboto-Regular';
-
-  padding: 5px 10px;
+  font-family: 'Roboto-Bold';
+  letter-spacing: 0.06em;
+  padding: 5px 20px;
+  margin-left: 10px;
   text-decoration: none;
   text-align: center;
-  color: ${p => p.theme.colors.text};
+  color: blue;
   border-radius: 8px;
   background-color: ${p => p.theme.colors.lightred};
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 
-  color: ${p => p.theme.colors.black};
-
   :hover:not(.active) {
     color: ${p => p.theme.colors.red};
+    background-color: rgb(23 116 141 / 28%);
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 3px 10px;
+    margin-left: 5px;
   }
 `;
